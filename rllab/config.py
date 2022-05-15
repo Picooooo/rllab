@@ -84,6 +84,6 @@ else:
           "are run")
     if 'CIRCLECI' not in os.environ:
         print("Exiting.")
-        import sys; sys.exit(0)
+        import sys;
 
 LABEL = ""
